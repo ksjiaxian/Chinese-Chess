@@ -1,8 +1,7 @@
-===================
-=: Screen Shots :=
-===================
-<img src="screenshots/start.png" width="400">  <img src="screenshots/move.png" width="400">
-<img src="screenshots/instructions.png" width="400">  <img src="screenshots/end.png" width="400">
+Chinese Chess
+
+<img src="screenshots/start.png" width="400">     <img src="screenshots/move.png" width="400">
+<img src="screenshots/instructions.png" width="400">     <img src="screenshots/end.png" width="400">
 
 ===================
 =: Core Concepts :=
