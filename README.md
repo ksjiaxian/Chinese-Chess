@@ -3,9 +3,7 @@
 <img src="screenshots/start.png" width="400">     <img src="screenshots/move.png" width="400">
 <img src="screenshots/instructions.png" width="400">     <img src="screenshots/end.png" width="400">
 
-===================
-=: Core Concepts :=
-===================
+# Concepts Implemented
 
 
   1. 2D arrays - organizes the pieces in an array with the dimensions of the 
@@ -40,9 +38,7 @@
   testing allows me to focus in on individual aspects of movement.
 
 
-=========================
-=: Your Implementation :=
-=========================
+# Project Files
 
   
   Piece - This is the abstract class of the pieces. It contains unimplemented
