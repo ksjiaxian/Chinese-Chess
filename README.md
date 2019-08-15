@@ -1,15 +1,13 @@
-=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
-CIS 120 Game Project README
-PennKey: kshinn
-=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+===================
+=: Screen Shots :=
+===================
+<img src="screenshots/start.png" width="400"><img src="screenshots/move.png" width="400">
+<img src="screenshots/instructions.png" width="400"><img src="screenshots/end.png" width="400">
 
 ===================
 =: Core Concepts :=
 ===================
 
-- List the four core concepts, the features they implement, and why each feature
-  is an appropriate use of the concept. Incorporate the feedback you got after
-  submitting your proposal.
 
   1. 2D arrays - organizes the pieces in an array with the dimensions of the 
   game board. Movement on the board is recorded and saved by changing the 
@@ -47,8 +45,6 @@ PennKey: kshinn
 =: Your Implementation :=
 =========================
 
-- Provide an overview of each of the classes in your code, and what their
-  function is in the overall game.
   
   Piece - This is the abstract class of the pieces. It contains unimplemented
   methods for movement and getters and setters for the general Piece
@@ -90,37 +86,3 @@ PennKey: kshinn
   Soldier - This is an implementation of the soldier piece in the game. The
   class contains methods for identifying a legal move and movement. The
   soldier also knows how it can move depending on where it is on the board.
-
-
-- Were there any significant stumbling blocks while you were implementing your
-  game (related to your design, or otherwise)?
-  
-  No, I didn't require much debugging time. I think that the way that the
-  game is designed allows me to pinpoint where the bugs came from. For example, 
-  if a piece moved weird, it must have been related to that specific piece's 
-  class and its movement method. Therefore, I would say I didn't have
-  significant stumbling blocks.
-
-
-- Evaluate your design. Is there a good separation of functionality? How well is
-  private state encapsulated? What would you refactor, if given the chance?
-  
-  I would say that the game has a pretty good separation of functionality, 
-  since the pieces essentially legally move themselves upon command. This 
-  lightens the load on the GameBoard class, which only really needs to take
-  the command from the player, and translate the command to the relevant 
-  game piece. The private state is also well encapsulated, as all methods are
-  private unless they are required to be public (in particular, the ones
-  required to communicate with the other classes in the game). If I could
-  refactor, I would leave all the moving to the pieces, and remove all of the
-  "checking" from the GameBoard class.
-
-
-========================
-=: External Resources :=
-========================
-
-- Cite any external resources (libraries, images, tutorials, etc.) that you may
-  have used while implementing your game.
-  
-  N/A
