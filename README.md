@@ -1,4 +1,4 @@
-Chinese Chess
+# Chinese Chess - 2 Player
 
 <img src="screenshots/start.png" width="400">     <img src="screenshots/move.png" width="400">
 <img src="screenshots/instructions.png" width="400">     <img src="screenshots/end.png" width="400">
